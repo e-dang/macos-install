@@ -20,4 +20,19 @@ jobs:
         run: ./install.sh
 
       - name: Restart shell
-        run: source ~/.zshrc
+        run: |
+          source ~/.zshrc
+          git version
+          python3 --version
+          yarn --version
+          yq --version
+          jq --version
+          helm version
+          flux --version
+          terraform --version
+          sops --version
+          aws --version
+          node --version
+          tree --version
+          kubectl version --client
+          wget --version
