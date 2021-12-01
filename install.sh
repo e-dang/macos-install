@@ -32,7 +32,6 @@ jq --version
 helm version
 flux --version
 terraform --version
-sshfs --version
 sops --version
 aws --version
 node --version
